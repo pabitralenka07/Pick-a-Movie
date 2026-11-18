@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Movie</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+      <h1>Pick a Movie</h1>
+      <p class="subtitle">Click any movie poster to select or unselect</p>
+    </header>
+    <main class="cards-wrapper">
+      <div class="cards">
+        <input type="checkbox" aria-label="movie, only yesterday">
+        <span class="title">Only Yesterday</span>
+      </div>
+      <div class="cards">
+        <input type="checkbox" aria-label="movie, the wind rises">
+        <span class="title">The Wind Rises</span>
+      </div>
+      <div class="cards">
+        <input type="checkbox" aria-label="movie, howl's moving castle">
+        <span class="title">Howl's Moving Castle</span>
+      </div>
+      <div class="cards">
+        <input type="checkbox" aria-label="movie, ponyo">
+        <span class="title">Ponyo</span>
+      </div>
+      <div class="cards">
+        <input type="checkbox" aria-label="movie, the cat returns">
+        <span class="title">The Cat Returns</span>
+      </div>
+    </main>
+    <footer>
+      <p class="credit">Posters by <a href="https://pabitra.com" target="_blank" rel="noreferrer noopener">Pabitra</a></p>
+      <aside class="warning" hidden>Note: JS fallback active (<code>sibling-index()</code> unsupported)</aside>
+    </footer>
+</body>
+</html>
